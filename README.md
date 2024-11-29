@@ -12,10 +12,13 @@ Kompatibel dengan sistem berbasis Debian, Ubuntu, Kali Linux, dan Termux.
 
 Persyaratan:
 
-Pastikan Steghide terinstal di sistem Anda:
+Pastikan Steghide sudah terinstal
+di sistem Anda:
 
 Untuk Debian/Ubuntu/Kali Linux: 
+
 sudo apt install steghide
+
 
 Untuk Termux: 
 apt install steghide
@@ -23,42 +26,47 @@ apt install steghide
 
 
 
+
+
 ==== Contoh Penggunaan ====
 
 
-Menyembunyikan File
+
+// Menyembunyikan File //
 
 
-1. Siapkan file rahasia (contoh: secret.txt) dan file cover (contoh: image.jpg).
+• Siapkan file rahasia (contoh: secret.txt) dan file cover (contoh: image.jpg) dalam 1 folder.
 
 
-2. Pilih menu [1] Sembunyikan file dalam gambar/audio/video.
+• Pilih menu [1] Sembunyikan file dalam gambar/audio/video.
 
 
-3. Masukkan:
+• Ikuti sesuai arahan :
 
+   
 ~ File rahasia: secret.txt
 
 ~ File cover: image.jpg
 
 ~ Nama output: output.jpg
 
-~ Password (opsional): masukkan password atau biarkan kosong.
+~ Password (opsional): masukkan
+  password atau biarkan kosong.
 
 
 
-4. File rahasia akan disembunyikan ke dalam output.jpg.
+• File rahasia akan disembunyikan ke dalam output.jpg.
 
 
-Mengekstrak File
+// Mengekstrak File //
 
-1. Siapkan file media dengan file tersembunyi (contoh: output.jpg).
-
-
-2. Pilih menu [2] Ekstrak file yang tersembunyi.
+• Siapkan file media dengan file tersembunyi (contoh: output.jpg).
 
 
-3. Masukkan:
+• Pilih menu [2] Ekstrak file yang tersembunyi.
+
+
+• Ikuti sesuai arahan :
 
 ~ File media: output.jpg
 
@@ -67,7 +75,7 @@ Mengekstrak File
 ~ Password (jika diperlukan).
 
 
-4. File rahasia akan diekstrak ke folder extracted/.
+• File rahasia akan diekstrak ke folder extracted/.
 
 
 
