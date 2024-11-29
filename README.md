@@ -21,9 +21,13 @@ Untuk Termux:
 apt install steghide
 
 
+
+
 ==== Contoh Penggunaan ====
 
+
 Menyembunyikan File
+
 
 1. Siapkan file rahasia (contoh: secret.txt) dan file cover (contoh: image.jpg).
 
@@ -33,13 +37,14 @@ Menyembunyikan File
 
 3. Masukkan:
 
-File rahasia: secret.txt
+~ File rahasia: secret.txt
 
-File cover: image.jpg
+~ File cover: image.jpg
 
-Nama output: output.jpg
+~ Nama output: output.jpg
 
-Password (opsional): masukkan password atau biarkan kosong.
+~ Password (opsional): masukkan password atau biarkan kosong.
+
 
 
 4. File rahasia akan disembunyikan ke dalam output.jpg.
@@ -55,11 +60,11 @@ Mengekstrak File
 
 3. Masukkan:
 
-File media: output.jpg
+~ File media: output.jpg
 
-Folder tujuan: (contoh: extracted/).
+~ Folder tujuan: (contoh: extracted/).
 
-Password (jika diperlukan).
+~ Password (jika diperlukan).
 
 
 4. File rahasia akan diekstrak ke folder extracted/.
