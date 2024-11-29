@@ -2,18 +2,22 @@ Program bash interaktif untuk menyembunyikan file rahasia dalam media seperti ga
 
 
 Fitur Utama:
+
 Menyembunyikan file dalam gambar/audio/video dengan mudah.
 Mengekstrak file tersembunyi dengan dukungan password.
 Petunjuk penggunaan yang jelas untuk pemula.
 Kompatibel dengan sistem berbasis Debian, Ubuntu, Kali Linux, dan Termux.
 
 
+
 Persyaratan:
+
 Pastikan Steghide terinstal di sistem Anda:
 Untuk Debian/Ubuntu/Kali Linux: sudo apt install steghide
 Untuk Termux: apt install steghide
 
 Program ini dirancang untuk memberikan pengalaman pengguna yang intuitif dengan antarmuka teks yang menarik.
+
 
 
 Catatan:
